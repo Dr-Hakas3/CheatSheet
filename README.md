@@ -1,1 +1,11 @@
 # CheatSeet
+## Red
+### Information_Gathering
+### Reconnaisance
+### Weaponization
+### Initial_Access
+### Pivot
+### Privilege_Escalation
+### Password_Crack
+### Lateral_Movement
+### C2_Framework

@@ -1,4 +1,4 @@
-# CheatSeet
+# CheatSheet
 ## Red
 ### Information_Gathering
 ### Reconnaisance

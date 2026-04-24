@@ -1,0 +1,11 @@
+# Obsidian
+/.obsidian
+
+# Image
+/Assets/
+
+# exe
+*.exe
+
+# ようこそ
+/ようこそ.md

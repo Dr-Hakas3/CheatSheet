@@ -52,7 +52,7 @@ enum_impersonate
 
 # ユーザの切り替え
 ```bash
-execute as login = 'appdev'
+execute as login = 'hogedev'
 ```
 
 ## Tableの確認
@@ -81,9 +81,9 @@ select * from sysusers;
 # ユーザの偽装
 アクセスしたいデータベースに以下のように権限がない場合
 ```zsh
-use hrappdb
+use fugadb
 
-ERROR: Line 1: The server principal "HAERO\discovery" is not able to access the database "hrappdb" under the current security context.
+ERROR: Line 1: The server principal "HAERO\discovery" is not able to access the database "fugadb" under the current security context.
 ```
 
 ## 偽装可能なユーザの確認
@@ -92,7 +92,7 @@ SELECT distinct b.name FROM sys.server_permissions a INNER JOIN sys.server_princ
 ```
 ### 権限のあるユーザへの切り替え
 ```zsh
-EXECUTE  AS LOGIN =  'hrappdb-reader'
+EXECUTE  AS LOGIN =  'fugadb-reader'
 ```
 
 # 現在のユーザが使用可能なDBの情報表示

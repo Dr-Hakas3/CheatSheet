@@ -103,7 +103,7 @@ EXECUTE  AS LOGIN =  'fugadb-reader'
 use hrappdb
 
 ENVCHANGE(DATABASE): Old Value: master, New Value: hrappdb
-INFO(DC\SQLEXPRESS): Line 1: Changed database context to 'hrappdb'.
+INFO(DC\SQLEXPRESS): Line 1: Changed database context to 'fugadb'.
 ```
 
 ## テーブルの確認
